@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MundoMax - Canal no YouTube</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #2b2b2c;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #282828;
+            color: rgb(17, 0, 255);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            letter-spacing: 1.5px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff0000; /* Cor do YouTube */
+        }
+
+        /* Seção de Apresentação */
+        .hero {
+            background: url('https://img.freepik.com/fotos-premium/3d-render-de-luz-de-neon-rgb-em-fundo-escuro-linhas-abstratas-de-laser-mostram-a-noite-cena-de-feixe-de-espectro-ultravioleta-para-mock-up-e-banner-da-web_106651-3086.jpg') no-repeat center/cover;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        /* Seção de Vídeos */
+        .videos {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .videos h2 {
+            margin-bottom: 30px;
+            font-size: 2em;
+            color: #ffffff;
+        }
+
+        .video-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .video-card {
+            width: 300px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .video-card:hover {
+            transform: scale(1.05);
+        }
+
+        .video-card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .video-card h3 {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        /* Seção de Contato */
+        .contact {
+            padding: 50px 20px;
+            background-color: #272626;
+            color: white;
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            margin-bottom: 20px;
+            font-size: 1em;
+        }
+
+        .contact a {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .contact a:hover {
+            color: #dddddd;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>MundoMax</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#videos">Vídeos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Seção de Apresentação -->
+    <section class="hero" id="inicio">
+        <h2>Bem-vindo ao MundoMax!</h2>
+        <p>Explore os melhores conteúdos De Mundo Max !</p>
+    </section>
+
+    <!-- Seção de Vídeos Populares -->
+    <section class="videos" id="videos">
+        <h2>Vídeos Populares</h2>
+        <div class="video-list">
+            <div class="video-card">
+                <img src="https://cdn.pixabay.com/video/2023/11/11/188742-883619742_tiny.jpg" alt="Vídeo 1">
+                <h3>Vídeo 1: Introdução ao MundoMax</h3>
+            
+            </div>
+        </div>
+    </section>
++
+    <!-- Seção de Contato -->
+    <section class="contact" id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Para parcerias e dúvidas, entre em contato pelo nosso canal oficial no YouTube!</p>
+        <a href="https://www.youtube.com/@Max12929">Visite nosso canal no YouTube</a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 MundoMax. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
